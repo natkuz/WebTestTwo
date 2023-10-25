@@ -39,10 +39,6 @@ class Site:
         element = self.find_element(mode, path)
         return element.value_of_css_property(property)
 
-    def create_post(self, mode, path):
-        element_create = self.find_element(mode, path)
-        element_title = self.find_element(mode, path)
-
     def stop(self):
         self.driver.close()
 
