@@ -38,8 +38,6 @@ def selector_input_content():
 def selector_save_button():
     return """//*[@id="create-item"]/div/div/div[7]/div/button"""
 
-
-
 @pytest.fixture()
 def selector_return_title():
     return """//*[@id="app"]/main/div/div[1]/h1"""
