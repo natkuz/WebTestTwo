@@ -1,0 +1,9 @@
+address: "https://test-stand.gb.ru"
+driver_path: "chromedriver.exe"
+browser: chrome
+sleep_time: 3
+login: 'kristy.cloud'
+password: '78458ab8df'
+title: "Cat-paw"
+description: "Post about cat-paw"
+content: "Сutie cat-paw"
